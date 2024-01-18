@@ -1,0 +1,48 @@
+<img class="pessoa-foto" [src]="pessoa.urlFoto" (error)="pessoa.urlFoto = 'assets/notAvailable.jpg'"/>
+
+<div class="secao secao-principal">
+    <h3>Informações Gerais</h3>
+<mat-list>
+    <mat-list-item>
+        <span matListItemTitle>Nome</span> 
+        <span matListItemLine>{{pessoa.nome}}</span>
+    </mat-list-item>
+    <mat-list-item>
+        <span matListItemTitle>Idade</span> 
+        <span matListItemLine>{{pessoa.idade}}</span>
+    </mat-list-item>
+    <mat-list-item>
+        <span matListItemTitle>Sexo</span> 
+        <span matListItemLine>{{pessoa.sexo}}</span>
+    </mat-list-item>
+    
+</mat-list>
+</div>
+
+<div class="secao">
+    <h3>Última Ocorrência</h3>
+    <mat-list>
+        <mat-list-item>
+            <span matListItemTitle>Data do Desaparecimento</span> 
+            <span matListItemLine>{{dtDesaparecimento | date: "dd/MM/yyyy"}}</span>
+        </mat-list-item>
+        <mat-list-item>
+            <span matListItemTitle>Local do Desaparecimento</span> 
+            <span matListItemLine>{{ultOco.localDesaparecimentoConcat}}</span>
+        </mat-list-item>
+    </mat-list>
+</div>
+
+<div class="secao">
+    <h3>Entrevista sobre Ocorrência</h3>
+    <mat-list>
+        <mat-list-item>
+            <span matListItemTitle>Informações</span> 
+            <span matListItemLine>{{entrev.informacao}}</span>
+        </mat-list-item>
+        <mat-list-item>
+            <span matListItemTitle>Vestimentas do Desaparecido</span> 
+            <span matListItemLine>{{entrev.vestimentasDesaparecido}}</span>
+        </mat-list-item>
+    </mat-list>
+</div>
