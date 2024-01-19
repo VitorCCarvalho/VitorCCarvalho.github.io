@@ -6,7 +6,9 @@ Porjeto feito em Angular v17.
 
 -Clone o repositório
 
--Abra o terminal na pasta raiz e execute `ng serve`
+-Abra o terminal na pasta raiz e execute `npm install` para instalar os pacotes (necessario NodeJs)
+
+-Execute `ng serve`
 
 ## Tech Stack
 
