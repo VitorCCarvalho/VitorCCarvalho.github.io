@@ -23,7 +23,7 @@ import { RouterLink, RouterModule } from '@angular/router';
             MatSortModule,
             RouterLink],
   templateUrl: './lista-pessoas.component.html',
-  styleUrl: './lista-pessoas.component.css'
+  styleUrl: './lista-pessoas.component.scss'
 })
 
 export class ListaPessoasComponent implements AfterViewInit{

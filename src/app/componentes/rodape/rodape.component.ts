@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './rodape.component.html',
-  styleUrl: './rodape.component.css'
+  styleUrl: './rodape.component.scss'
 })
 export class RodapeComponent {
 

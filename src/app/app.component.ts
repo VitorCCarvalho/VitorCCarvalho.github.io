@@ -12,7 +12,7 @@ import { routes } from '../app/app.routes'
   standalone: true,
   imports: [CommonModule, RouterOutlet, CabecalhoComponent, RodapeComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'teste_petize';
