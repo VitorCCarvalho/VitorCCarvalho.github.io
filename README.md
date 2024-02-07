@@ -1,6 +1,6 @@
 # TestePetize
 
-Porjeto feito em Angular v17.
+Projeto feito em Angular v17.
 
 ## Como rodar o projeto
 
